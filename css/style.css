@@ -1,0 +1,246 @@
+
+body {
+   margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom:1em;
+  border-bottom: 1px solid #ddd;
+  color: #ffffff;
+   background-color: #1B263B; /* weißer Hintergrund*/
+   position: sticky;   
+  width: 100%;       /* Vollbildanzeige*/
+  top: 0px; /*Entfernen Sie die Lücke oben.*/
+  padding-top: 1em;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src:  url('./fonts/PlaywriteDESAS-Regular.ttf') format('truetype');/* schreibort*/
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src:  url('./fonts/Oswald-Regular.ttf') format('truetype');/* schreibort*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;  /* schreibort*/
+  margin-left: 2em;
+  font-size: 2.1em;
+}
+
+
+.nav-buttons a {
+   font-family: 'Roboto', sans-serif;  /* schreibort*/
+  text-decoration: none;
+    color: #ffffff;
+  padding: 8px 14px;
+
+  font-size: 1.1em;
+}
+
+
+* {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.Container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+    flex: 1;
+}
+
+.Container-img img
+{
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;    
+    display: block;     
+}
+.Haupttitel 
+{
+  display: flex;
+  justify-content: center;
+      background-color: #faf6fd;    
+
+}
+ .Leistung
+{
+  display: flex;
+  justify-content: center;
+      background-color: #ffffff;    
+
+}
+
+.Haupttitel h1 , .Leistung h1{
+  font-weight: bold;
+   font-size: 3em;
+   color: #003366;
+     font-family: 'Oswald', sans-serif;  /* schreibort*/
+}
+.Container-Uber-uns {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 40px;    
+    padding: 3em;  
+    background-color: #faf6fd;     
+}
+ .Container-Leistung{
+    display: flex; 
+    justify-content: space-between; 
+    gap: 40px;    
+    padding: 3em;  
+    background-color: #ffffff;     
+}
+.Container-Uber-uns-p , .Container-Leistung-p
+{
+ flex: 1;
+}
+.Container-Uber-uns-img, .Container-Leistung-img
+{
+ flex: 1;
+}
+.Container-Uber-uns-img img , .Container-Leistung-img img
+{
+
+ width: 60vh;
+ height: 50vh;
+ border-radius: 2em;
+  margin-left: 8em;
+}
+.Container-Uber-uns-p p 
+{
+  padding-top: 3em;
+ font-size: 1.8em;
+ color: #2D2D2D;
+ line-height: 1.6;
+ text-align: justify;
+}
+.Container-Leistung-p p
+{
+  padding-top: 1em;
+ font-size: 1.8em;
+  color: #2D2D2D;
+  line-height: 1.6;
+  text-align: justify;
+}
+.Container-Leistung-p h1
+{
+ font-size: 3em;
+
+}
+.Container-map
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  gap: 20px;
+ margin-bottom: 50px;
+}
+
+.Container-map-img
+{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+
+}
+.Container-map-img img {
+    width: 50%;       /* الآن ستأخذ 50% من عرض الشاشة الحقيقي */
+    height: 50%;     /* auto أفضل من 50% للارتفاع */
+    object-fit: cover;
+}
+
+footer {
+    
+    background-color: #333;
+    color: white;
+
+    width: 100%;
+}
+.cantainer-footer p{
+  font-size: 20px;
+}
+.cantainer-footer
+{
+    display: flex; 
+    justify-content: space-between; 
+
+    padding: 20px;
+}
+.contact-container {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    background-color: #faf6fd; 
+     padding: 3em;
+     gap: 3em;
+}
+.contact-container-p{
+  flex: 1;
+  font-size: 1.8em;
+  color: #2D2D2D;
+  line-height: 1.6;
+  text-align: justify;
+    
+}
+.contact-container-input
+{
+   flex: 1;
+   
+}
+
+.form-Name
+{
+  font-size: 1.8em;
+
+}
+#name
+{
+  font-size: 0.7em;
+
+}
+.form-email
+{
+  font-size: 1.8em;
+
+}
+#email
+{
+  font-size: 0.7em;
+
+}
+.form-message
+{
+  font-size: 1.8em;
+
+}
+#message
+{
+  font-size: 0.7em;
+
+}
+.submit-btn
+{
+  font-size: 1.4em;
+
+}
+.contact-container-input
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
