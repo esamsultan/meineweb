@@ -15,7 +15,7 @@ nav {
   color: #ffffff;
    background-color: #1B263B; /* weißer Hintergrund*/
    position: sticky;   
-  width: 100vh;       /* Vollbildanzeige*/
+  width: 100%;       /* Vollbildanzeige*/
   top: 0px; /*Entfernen Sie die Lücke oben.*/
   padding-top: 1em;
 }
